@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>百度一下，你就知道</title>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 换肤 -->
+    <div id="skin-p">
+        <span id="skin" style="cursor: pointer;">换肤</span>
+        <span id='tip' style="color: blue;font-size: 10px;display: none;">点击切换皮肤</span>
+        <ul class="s-p">
+            <li><img id="p1" src="picture/60d2f4fe0275d790-fbe7539243950f9f-7f669dbeead0ad667f21be96b5efd843.jpg" alt="">
+                <img id="p2" src="picture/8218020_193654254129_2.jpg" alt=""> <img  id='p3'
+                src="picture/2a33919e9b.jpg" alt=""></li>
+            <li><img id="p4" src="picture/1357391988250.jpg" alt=""><img id="p5" src="picture/139-15022PT915-50.jpg" alt=""><img id="p6" src="picture/1444b15O02220-142S7.jpg" alt=""></li>
+        </ul>
+    </div>
+    <!-- 导航栏部分 -->
+    <div class="nav" id="mytop">
+        <a href="" id="more-pro">更多产品</a>
+        <a href="" class="gray-n" id="set-nav">设置</a>
+        <a href="" class="gray-n" id="mycount">求别逗咯</a>
+        <a href="">贴吧</a>
+        <a href="">视频</a>
+        <a href="">地图</a>
+        <a href="">hao123</a>
+        <a href="">新闻</a>
+        <a href="">糯米</a>
+    </div>
+    <br>
+    <hr>
+    <div id="indivalinfo">
+        <ul>
+            <li>我的VIP</li>
+            <li>个人中心</li>
+            <li>账号设置</li>
+            <li>意见反馈</li>
+            <li>退出</li>
+        </ul>
+    </div>
+    <div id="setnav">
+        <ul>
+            <li>搜索设置</li>
+            <li>高级设置</li>
+            <li>关闭预测</li>
+            <li>搜索历史</li>
+        </ul>
+    </div>
+    <div id="more" class="mor">
+        <a href="" id="more-d">更多产品</a>
+        <a href=""><img src="picture/music.png" alt="">
+           <span>音乐</span></a>
+        <a href="" target="blank"><img src="picture/image.png" alt="">
+            <span>图片</span></a>
+        <a href="" target="blank"><img src="picture/zhidao.png" alt="">
+            <span>知道</span></a>
+        <a href="" target="blank"><img src="picture/wenku.png" alt="">
+            <span>文库</span></a>
+        <a href="" target="blank"><img src="picture/bang.png" alt="">
+            <span>风云榜</span></a>
+        <a href="" target="blank"><img src="picture/tuiguang.png" alt="">
+            <span>百度推广</span></a>
+        
+        <a href="" target="blank"><img src="" alt="">更多产品>></a>
+    </div>
+    <!-- 搜索栏部分 -->
+    <div id="search">
+        <img src="picture/bd_logo1_31bdc765.png" alt="百度一下，你就知道" width="270px" height="129px">
+        <span id="pic-cam"></span>
+        <form action="www.baidu.com" >
+        <input type="text">
+        <button>百度一下</button>
+        </form>
+    </div>
+    <!-- 新闻部分 -->
+    <div id="contain">
+        <div id="menu">
+            <span id="click1">我的关注</span>
+            <span id="click2">推荐</span>
+            <span id="click3">导航</span>
+            <span id="click4">视频</span>
+            <span id="click5">购物</span>
+            <div id="set"></div>
+        </div>
+        <!-- 我的关注 -->
+        <div id="myconcern" class="con">
+            <div id="mynav">
+                <em></em>
+                <p>我的导航(0)</p>
+                <br>
+                <div id="add">
+                    <div id="addcon"></div>
+                </div>
+                <div id='addmyself'>
+                    <a href=""> +自定义</a>
+                </div>
+            </div>
+        </div>
+        <!-- 推荐 -->
+        <div id="recommend" class="con">
+            <div id="scoll">
+                <div id="firt-new">
+                    <img src="picture/u=1667235910,3431975486&fm=80&w=179&h=119&img.JPEG" alt="">
+                    <img src="picture/u=1667235910,3431975486&fm=80&w=179&h=119&img.JPEG" alt="">
+                    <img src="picture/u=1667235910,3431975486&fm=80&w=179&h=119&img.JPEG" alt="">
+                    <h3>
+                 <a href="" data-title="女童病危转院 潍坊青岛两地交警雾霾中接力护送">女童病危转院 潍坊青岛两地交警雾霾中接力护送</a>
+                    </h3>
+                    <span> 搜狐新闻  2017-01-06 9:35 <em>热点</em></span>
+                </div>
+                <br>
+                <div id="second-new">
+                    <h3>
+                        <a href="" data-title="环保部：7月前完成火电造纸行业排污许可证核发">环保部：7月前完成火电造纸行业排污许可证核发</a>
+                     </h3>
+                    <span> 新浪新闻  2017-01-06 11:10 <em>热点</em></span>
+                </div>
+                <br>
+                <div id="thrd-new">
+                    <h3>
+                        <a href="" data-title="墨西哥央行抛售美元支撑比索">墨西哥央行抛售美元支撑比索</a>
+                     </h3>
+                    <span> 腾讯新闻  2017-01-05 9:30 <em>热点</em></span>
+                </div>
+                <br>
+                <div id="thrd-new">
+                    <h3>
+                        <a href="" data-title="墨西哥央行抛售美元支撑比索">中国足球以最高价雇佣里皮执教</a>
+                     </h3>
+                    <span> 新浪新闻  2017-01-09 9:30 <em>热点</em></span>
+                </div>
+                <br>
+                <div id="thrd-new">
+                    <h3>
+                        <a href="" data-title="墨西哥央行抛售美元支撑比索">全民热烈讨论曹操是否相当皇帝</a>
+                     </h3>
+                    <span> 腾讯新闻  2017-01-05 9:30 <em>热点</em></span>
+                </div>
+                <br>
+                <div id="fort-new">
+                    <img src="picture/1.JPEG" alt=""><img src="picture/2.JPEG" alt=""><img src="picture/3.JPEG" alt="">
+                    <h3>
+                 <a href="" data-title="范冰冰年终奖很给力 最惨的是王宝强员工了">范冰冰年终奖很给力 最惨的是王宝强员工了</a>
+                    </h3>
+                    <span> 网易新闻  2017-01-03 7:05 </span>
+                </div>
+                <br>
+                <div id="fiv-new">
+                    <img src="picture/4.JPEG" alt="">
+                    <h3>
+                       <a href="" data-title="他是娱乐圈最穷的明星，曾用一块五毛钱过了20多天">他是娱乐圈最穷的明星,用一块五毛钱过了20多天</a>
+                    </h3>
+                    <span> 腾讯新闻  2017-01-04 12:15 </span>
+                </div>
+                <br>
+                <div id="six-new">
+                    <img src="picture/5.PNG" alt="">
+                    <h3>
+                       <a href="" data-title="他抛妻弃女远走他乡15年后却震撼日本感动亿万国人">他抛妻弃女远走他乡15年后震撼日本感动国人</a>
+                    </h3>
+                    <span> 新浪新闻  2017-01-07 10:25</span>
+                </div>
+                <br>
+                <div id="sevn-new">
+                    <img src="picture/6.JPEG" alt="">
+                    <img src="picture/7.JPEG" alt="">
+                    <img src="picture/8.JPEG" alt="">
+                    <h3>
+                    <a href="" data-title="研究中国地铁的英国老头儿">研究中国地铁的英国老头儿</a>
+                    </h3>
+                    <span> 网易新闻  2017-01-06 9:35 </span>
+                </div>
+                <div id="eigh-new">
+                    <img src="picture/12.JPEG" alt="">
+                    <img src="picture/13.JPEG" alt="">
+                    <img src="picture/14.JPEG" alt="">
+                    <h3> 
+                    <a href="" data-title="年底了算账吧！10万元的车每年要花掉你多少钱？">年底了算账吧！10万元的车每年要花掉你多少钱？</a>
+                    </h3>
+                    <span> 新浪新闻  2017-01-03 11:28 </span>
+                </div>
+                <div id="neig-new">
+                    <img src="picture/15.JPEG" alt="">
+                    <img src="picture/16.JPEG" alt="">
+                    <img src="picture/17.JPEG" alt="">
+                    <h3>
+                    <a href="" data-title="王毅外长一席话，韩国外交部国防部全慌了">王毅外长一席话，韩国外交部国防部全慌了</a>
+                    </h3>
+                    <span> 腾讯新闻  2017-01-07 7:15 </span>
+                </div>
+            </div>
+            <!-- 固定位置的新闻 -->
+            <div id="fix">
+                <a href="" style="color:black;">实时热点</a>
+                <ul>
+                    <li><a href="">嫌吵买镇楼神器</a></li>
+                    <li><a href="">拍摄天文台全景</a></li>
+                    <li><a href="">国足球打入世界杯</a></li>
+                    <li><a href="">105岁老人破纪录</a></li>
+                    <li><a href="">美国航母全部撤回</a></li>
+                    <li><a href="">奥巴马欢送仪式</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 导航 -->
+        <div id="nav" class="con">
+            <div>
+                <h4>猜你喜欢</h4>
+                <div id="nuomi">
+                    <a href="">
+                        <img src="picture/01.png" alt="">
+                        <span>百度糯米</span>
+                    </a>
+                </div>
+                <div id="jindong">
+                    <a href="">
+                        <img src="picture/02.png" alt="">
+                        <span>京东商城</span>
+                    </a>
+                </div>
+                <div id="jindong">
+                    <a href="">
+                        <img src="picture/02.png" alt="">
+                        <span>京东商城</span>
+                    </a>
+                </div>
+                <div id="jike">
+                    <a href="">
+                        <img src="picture/03.png" alt="">
+                        <span>极客学院</span>
+                    </a>
+                </div>
+                <div id="yihao">
+                    <a href="">
+                        <img src="picture/04.png" alt="">
+                        <span>一号店</span>
+                    </a>
+                </div>
+                <div id="suning">
+                    <a href="">
+                        <img src="picture/05.png" alt="">
+                        <span>苏宁易购</span>
+                    </a>
+                </div>
+                <div id="weipin">
+                    <a href="">
+                        <img src="picture/07.png" alt="">
+                        <span>唯品会</span>
+                    </a>
+                </div>
+                <div id="dangdan">
+                    <a href="">
+                        <img src="picture/08.png" alt="">
+                        <span>当当网</span>
+                    </a>
+                </div>
+                <div id="baidu">
+                    <a href="">
+                        <img src="picture/09.png" alt="">
+                        <span>百度云盘</span>
+                    </a>
+                </div>
+                <div id="bai-vip">
+                    <a href="">
+                        <img src="picture/09.png" alt="">
+                        <span>百度VIP</span>
+                    </a>
+                </div>
+                <div id="aboutbaidu">
+                    <a href="">
+                        <img src="picture/09.png" alt="">
+                        <span>关于百度</span>
+                    </a>
+                </div>
+                <div id="jindong">
+                    <a href="">
+                        <img src="picture/02.png" alt="">
+                        <span>京东商城</span>
+                    </a>
+                </div>
+                <div id="jindong">
+                    <a href="">
+                        <img src="picture/02.png" alt="">
+                        <span>京东商城</span>
+                    </a>
+                </div>
+                <div id="jike">
+                    <a href="">
+                        <img src="picture/03.png" alt="">
+                        <span>极客学院</span>
+                    </a>
+                </div>
+                <div id="yihao">
+                    <a href="">
+                        <img src="picture/04.png" alt="">
+                        <span>一号店</span>
+                    </a>
+                </div>
+                <div id="suning">
+                    <a href="">
+                        <img src="picture/05.png" alt="">
+                        <span>苏宁易购</span>
+                    </a>
+                </div>
+                <div id="weipin">
+                    <a href="">
+                        <img src="picture/07.png" alt="">
+                        <span>唯品会</span>
+                    </a>
+                </div>
+                <div id="dangdan">
+                    <a href="">
+                        <img src="picture/08.png" alt="">
+                        <span>当当网</span>
+                    </a>
+                </div>
+                <div id="baidu">
+                    <a href="">
+                        <img src="picture/09.png" alt="">
+                        <span>百度云盘</span>
+                    </a>
+                </div>
+                <div id="bai-vip">
+                    <a href="">
+                        <img src="picture/09.png" alt="">
+                        <span>百度VIP</span>
+                    </a>
+                </div>
+                <div id="aboutbaidu">
+                    <a href="">
+                        <img src="picture/09.png" alt="">
+                        <span>关于百度</span>
+                    </a>
+                </div>
+                <div id="jike">
+                    <a href="">
+                        <img src="picture/03.png" alt="">
+                        <span>极客学院</span>
+                    </a>
+                </div>
+                <div id="yihao">
+                    <a href="">
+                        <img src="picture/04.png" alt="">
+                        <span>一号店</span>
+                    </a>
+                </div>
+                <div id="suning">
+                    <a href="">
+                        <img src="picture/05.png" alt="">
+                        <span>苏宁易购</span>
+                    </a>
+                </div>
+                <div id="weipin">
+                    <a href="">
+                        <img src="picture/07.png" alt="">
+                        <span>唯品会</span>
+                    </a>
+                </div>
+                <div id="dangdan">
+                    <a href="">
+                        <img src="picture/08.png" alt="">
+                        <span>当当网</span>
+                    </a>
+                </div>
+                <div id="baidu">
+                    <a href="">
+                        <img src="picture/09.png" alt="">
+                        <span>百度云盘</span>
+                    </a>
+                </div>
+                <div id="bai-vip">
+                    <a href="">
+                        <img src="picture/09.png" alt="">
+                        <span>百度VIP</span>
+                    </a>
+                </div>
+                <div id="aboutbaidu">
+                    <a href="">
+                        <img src="picture/09.png" alt="">
+                        <span>关于百度</span>
+                    </a>
+                </div>
+                <div id="jindong">
+                    <a href="">
+                        <img src="picture/02.png" alt="">
+                        <span>京东商城</span>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div>
+                <div id="zixun">
+                    <h4>资讯信息</h4>
+                </div>
+                <div class="inf">
+                    <a href="">
+                        <img src="picture/a.jpg" alt="">
+                    </a>
+                </div>
+                <div class="inf">
+                    <a href="">
+                        <img src="picture/b.jpg" alt="">
+                    </a>
+                </div>
+                <div class="inf">
+                    <a href="">
+                        <img src="picture/c.jpg" alt="">
+                    </a>
+                </div>
+                <div class="inf">
+                    <a href="">
+                        <img src="picture/d.jpg" alt="">
+                    </a>
+                </div>
+                <div class="inf">
+                    <a href="">
+                        <img src="picture/e.jpg" alt="">
+                    </a>
+                </div>
+                <div class="inf">
+                    <a href="">
+                        <img src="picture/f.jpg" alt="">
+                    </a>
+                </div>
+                <div class="inf">
+                    <a href="">
+                        <img src="picture/g.jpg" alt="">
+                    </a>
+                </div>
+                <div class="inf">
+                    <a href="">
+                        <img src="picture/h.jpg" alt="">
+                    </a>
+                </div>
+                <div class="inf">
+                    <a href="">
+                        <img src="picture/i.jpg" alt="">
+                    </a>
+                </div>
+                <div class="inf">
+                    <a href="">
+                        <img src="picture/k.jpg" alt="">
+                    </a>
+                </div>
+                <div class="inf">
+                    <a href="">
+                        <img src="picture/l.jpg" alt="">
+                    </a>
+                </div>
+                <div class="inf">
+                    <a href="">
+                        <img src="picture/n.jpg" alt="">
+                    </a>
+                </div>
+                <div class="inf">
+                    <a href="">
+                        <img src="picture/m.jpg" alt="">
+                    </a>
+                </div>
+                <div class="inf">
+                    <a href="">
+                        <img src="picture/y.jpg" alt="">
+                    </a>
+                </div>
+                <div class="inf">
+                    <a href="">
+                        <img src="picture/z.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div id="entertain">
+                <h4>娱乐休闲</h4>
+                <div>
+                    <a href=""><img src="picture/001.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href=""><img src="picture/002.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href=""><img src="picture/003.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href=""><img src="picture/004.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href=""><img src="picture/005.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href=""><img src="picture/006.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href=""><img src="picture/007.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href=""><img src="picture/008.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href=""><img src="picture/009.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href=""><img src="picture/010.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href=""><img src="picture/011.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div id="radio" class="con">
+            <div>
+                <a href=""><img src="picture/a1.jpg" alt=""></a>
+                <span id="star"></span>
+            </div>
+            <div>
+                <a href=""><img src="picture/a2.jpg" alt=""></a>
+                <span id="star1"></span>
+            </div>
+            <div>
+                <a href=""><img src="picture/a3.jpg" alt=""></a>
+                <span id="star2"></span>
+            </div>
+            <div>
+                <a href=""><img src="picture/a4.jpg" alt=""></a>
+                <span id="star3"></span>
+            </div>
+            <div>
+                <a href=""><img src="picture/a5.jpg" alt=""></a>
+                <span id="star4"></span>
+            </div>
+            <div>
+                <a href=""><img src="picture/a6.jpg" alt=""></a>
+                <span id="star5"></span>
+            </div>
+            <div>
+                <a href=""><img src="picture/a7.jpg" alt=""></a>
+                <span id="star6"></span>
+            </div>
+            <div>
+                <a href=""><img src="picture/a8.jpg" alt=""></a>
+                <span id="star7"></span>
+            </div>
+            <div>
+                <a href=""><img src="picture/a9.jpg" alt=""></a>
+                <span id="star8"></span>
+            </div>
+            <div>
+                <a href=""><img src="picture/a11.jpg" alt=""></a>
+                <span id="star9"></span>
+            </div>
+            <div>
+                <a href=""><img src="picture/a12.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img src="picture/a13.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img src="picture/a14.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img src="picture/a15.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img src="picture/a16.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img src="picture/a17.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img src="picture/a18.jpg" alt=""></a>
+            </div>
+        </div>
+        <!-- 购物 -->
+        <div id="shopping" class="con">
+            <div>
+                <a href=""><img id="shop-p1" src="picture/b1.jpg" alt=""></a>
+                <br>
+                <span id="shop1">可爱造型暖宝宝</span>
+            </div>
+            <div>
+                <a href=""><img id="shop-p2" src="picture/b2.jpg" alt=""></a>
+                <span id="shop2">健康热卖核桃仁</span>
+            </div>
+            <div>
+                <a href=""><img id="shop-p3" src="picture/b3.jpg" alt=""></a>
+                <span id="shop3">多功能榨汁机</span>
+            </div>
+            <div id="onsele">
+                <a href="">淘宝特卖,9块9包邮</a>
+                <a href="">大牌特卖,天天低价</a>
+            </div>
+            <div>
+                <a href=""><img id="shop-p4" src="picture/b4.jpg" alt=""></a>
+                <span id="shop4">畅销海外热水壶</span>
+            </div>
+            <div>
+                <a href=""><img id="shop-p5" src="picture/b5.jpg" alt=""></a>
+                <span id="shop5">过年就送牛气冲</span>
+            </div>
+            <div>
+                <a href=""><img id="shop-p6" src="picture/b6.jpg" alt=""></a>
+                <span id="shop6">送父亲送岳父大衣保暖</span>
+            </div>
+            <div>
+                <a href=""><img id="shop-p7" src="picture/b7.jpg" alt=""></a>
+                <span id="shop7">京东好礼十分钟到达</span>
+            </div>
+            <div>
+                <a href=""><img id="shop-p8" src="picture/b8.jpg" alt=""></a>
+                <span id="shop8">晋安丝绵送你好睡眠</span>
+            </div>
+            <div>
+                <a href=""><img id="shop-p9" src="picture/b9.jpg" alt=""></a>
+                <span id="shop9">郎康按摩披肩，真正懂你</span>
+            </div>
+            <div>
+                <a href=""><img id="shop-p10" src="picture/b10.jpg" alt=""></a>
+                <span id="shop10">象印真空保温杯</span>
+            </div>
+            <div>
+                <a href=""><img src="picture/b11.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img src="picture/b12.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img src="picture/吧3.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img src="picture/b12.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img src="picture/b14.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img src="picture/b15.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- 回到顶部 -->
+    <div id="top-icon">
+        <div id="come-top"><a href="#mytop">回到顶部</a></div>
+    </div>
+    <div id="t-icon">
+        <img src="picture/Gnome-Go-Top-48.png" alt="" width="40px">
+    </div>
+</body>
+
+</html>
