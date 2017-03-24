@@ -1,0 +1,1763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="IT教程,IT视频,IT视频教程,IT职业课程,IT职业教程,IT在线教程,IT在线视频教程" />
+    <meta name="description" content="IT职业在线教育学习视频课程, 为开发者提供全面最新最实战IT职业课程,IT职业教程,涵盖android开发教程,安卓开发教程,cocos2dx 教程,ios教程,html5教程,flash教程,python基础教程,typescript开发教程,ui设计教程等IT职业视频教程." />
+    <title>IT职业在线教育视频-极客学院</title>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <div id="nav">
+        <div id="logo-p">
+            <img src="picture/logo.png" alt="" width="109px" height="40px" style="display: block;">
+        </div>
+        <div id="mynav">
+            <ul>
+                <li>
+                    <a href="" id="home">首页</a>
+                </li>
+                <li><span id="school">职业学院</span> <i class="arow-icon"></i>
+                    <div id="courelist">
+                        <h3>前端學院</h3>
+                        <a href=""><i class="web-icon" ></i>Web 前端工程师</a>
+                        <a href=""><i class="wechat-icon"id="icon-1"></i>微信小程序工程师</a>
+                        <h3>后端学院</h3>
+                        <a href=""><i class="python-icon" id="icon-2"></i>Python Web工程师</a>
+                        <a href=""><i class="go-icon" id="icon-3"></i>Go语言工程师</a>
+                        <h3>移动学院</h3>
+                        <a href=""><i class="android-icon" id="icon-4"></i>Android工程师</a>
+                        <a href=""><i class="ios-icon" id="icon-5"></i>iOS工程师</a>
+                    </div>
+                </li>
+                <li><span id="course">会员课程</span> <i class="arow-icon"></i>
+                    <div id="VIP-course">
+                        <a href=""><i class="kck-icon"></i>课程库<span>2500+</span></a>
+                        <a href=""><i class="zyljt-icon"></i>职业路径图<span>9</span></a>
+                        <a href=""><i class="zstxt-icon"></i>知识体系图<span>24</span></a>
+                        <a href=""><i class="xlkc-icon"></i>系列课程<span>101</span></a>
+                        <a href=""><i class="kcbq-icon"></i>课程标签<span>4000+</span></a>
+                        <a href=""><i class="vip-icon"></i>VIP会员购买<span>30/月  260/年</span></a>
+                    </div>
+                </li>
+                <li><span id="block">极客社区</span><i class="arow-icon"></i>
+                    <div id="jikeblock">
+                        <a href=""><i class="jswd-icon"></i>技术问答<span>20000+</span></a>
+                        <a href=""><i class="wiki-icon"></i>Wiki<span>351</span></a>
+                        <a href=""><i class="sq-icon"></i>社群<span>7000+</span></a>
+                        <a href=""><i class="zygx-icon"></i>资源下载<span>3000+</span></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="icon-box">
+        <span id="search"></span>
+        <span id="app"></span>
+        <span id="login"></span>
+        <div id="app-p">
+            <img src="picture/heade-rwm.png" alt="" width="120px" width="157.5px">
+        </div>
+    </div>
+    <!--searchbox-->
+    <div class="searchbox" id="searchbox">
+        <i class="close-icon" id="close-btn"></i>
+        <i class="search-icon" id="search-btn"></i>
+        <input id="web_search_header" placeholder="搜索课程、问答或Wiki" value="">
+        <div class="tagbox">
+            <a href="http://search.jikexueyuan.com/course/?q=Android">Android</a>
+            <a href="http://search.jikexueyuan.com/course/?q=iOS">iOS</a>
+            <a href="http://search.jikexueyuan.com/course/?q=HTML5">HTML5</a>
+        </div>
+    </div>
+    <!-- 课程库 -->
+    <div id="aside" class="f_l">
+        <div class="aside-allCategory">
+            <div class="hd">
+                <h4><a href=""><i class="icon-course-curr"></i>课程库</a></h4>
+            </div>
+            <div class="bd">
+                <ul class="aside-cList">
+                    <li>
+                        <div>
+                            <a id="cg1" href="">移动开发</a>
+                            <div class="list-show" id="yidong">
+                                <div>
+                                    <dl>
+                                        <dt><a href="" cgid="58">应用开发</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="59">Android</a>
+                                            <a href="" cgid="60">iOS</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="13">游戏开发</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="63">Cocos</a>
+                                            <a href="" cgid="64">Unity3D</a>
+                                            <a href="" cgid="65">SpriteKit 2D</a>
+                                            <a href="" cgid="66">Unreal</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="14">常用框架</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="68">Cordova</a>
+                                            <a href="" cgid="382">React Native</a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <!-- list-show -->
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a id="cg2" href="">前端开发</a>
+                            <div class="list-show" id="qianduan">
+                                <div>
+                                    <dl>
+                                        <dt><a href="" cgid="16">前端基础</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="76">HTML</a>
+                                            <a href="" cgid="77">CSS</a>
+                                            <a href="" cgid="78">JavaScript</a>
+                                            <a href="" cgid="79">HTML5</a>
+                                            <a href="" cgid="80">CSS3</a>
+                                            <a href="" cgid="81">技术前瞻</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="18">前端进阶</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="97">Typescript</a>
+                                            <a href="" cgid="98">前端安全</a>
+                                            <a href="" cgid="99">项目实战</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="17">前端框架</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="82">jQuery</a>
+                                            <a href="" cgid="83">jQuery UI</a>
+                                            <a href="" cgid="84">jQuery Mobile</a>
+                                            <a href="" cgid="85">Ext JS</a>
+                                            <a href="" cgid="86">AngularJS</a>
+                                            <a href="" cgid="87">ReactJS</a>
+                                            <a href="" cgid="94">Bootstrap</a>
+                                            <a href="" cgid="371">React Native</a>
+                                            <a href="" cgid="372">Backbone</a>
+                                            <a href="" cgid="373">Three.js</a>
+                                            <a href="" cgid="374">MooTools</a>
+                                            <a href="" cgid="375">Compass</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="19">HTML5游戏</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="100">Canvas</a>
+                                            <a href="" cgid="102">SVG</a>
+                                            <a href="" cgid="103">WebGL</a>
+                                            <a href="" cgid="105">Cocos2d-js</a>
+                                            <a href="" cgid="106">CreateJS</a>
+                                            <a href="" cgid="107">Flash</a>
+                                            <a href="" cgid="108">Unreal</a>
+                                            <a href="" cgid="109">Egret</a>
+                                            <a href="" cgid="376">Phaser</a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <!-- list-show -->
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a id="cg3" href="">后端开发</a>
+                            <div class="list-show" id="houduan">
+                                <div>
+                                    <dl>
+                                        <dt><a href="" cgid="23">Python</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="147">Python 基础</a>
+                                            <a href="" cgid="148">web2py</a>
+                                            <a href="" cgid="149">Django</a>
+                                            <a href="" cgid="150">Flask</a>
+                                            <a href="" cgid="393">GUI</a>
+                                            <a href="" cgid="394">数据挖掘与分析</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="21">PHP</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="123">PHP 基础</a>
+                                            <a href="" cgid="125">YII</a>
+                                            <a href="" cgid="126">ThinkPHP</a>
+                                            <a href="" cgid="127">Laravel</a>
+                                            <a href="" cgid="128">WordPress</a>
+                                            <a href="" cgid="131">Phalcon</a>
+                                            <a href="" cgid="135">Apache</a>
+                                            <a href="" cgid="136">Facebook Hack</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="26">Node.js</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="158">Node.js 基础</a>
+                                            <a href="" cgid="159">express</a>
+                                            <a href="" cgid="161">Meteor</a>
+                                            <a href="" cgid="386">Hexo</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="22">ASP.NET</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="137">C#</a>
+                                            <a href="" cgid="139">ASP.NET MVC</a>
+                                            <a href="" cgid="140">Entity Framework</a>
+                                            <a href="" cgid="368">WPF</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="20">J2EE</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="111">JSP</a>
+                                            <a href="" cgid="112">Maven</a>
+                                            <a href="" cgid="114">Spring</a>
+                                            <a href="" cgid="115">SpringMVC</a>
+                                            <a href="" cgid="116">Struts2</a>
+                                            <a href="" cgid="117">MyBatis</a>
+                                            <a href="" cgid="118">Hibernate</a>
+                                            <a href="" cgid="120">Lucene</a>
+                                            <a href="" cgid="369">常用框架</a>
+                                            <a href="" cgid="370">项目实战</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="24">Ruby</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="151">Ruby 基础</a>
+                                            <a href="" cgid="152">Ruby on Rails</a>
+                                            <a href="" cgid="153">Grape</a>
+                                            <a href="" cgid="366">Ruby进阶</a>
+                                            <a href="" cgid="367">RubyMine</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="25">Go</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="155">Go 基础</a>
+                                            <a href="" cgid="156">Revel</a>
+                                            <a href="" cgid="157">beego</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="387">Erlang</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="388">Erlang 基础</a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <!-- list-show -->
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a id="cg4" href="">基础知识</a>
+                            <div class="list-show" id="jichu">
+                                <div>
+                                    <dl>
+                                        <dt><a href="" cgid="27">基础语言</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="162">C</a>
+                                            <a href="" cgid="163">C++</a>
+                                            <a href="" cgid="165">Objective-C</a>
+                                            <a href="" cgid="166">Swift</a>
+                                            <a href="" cgid="167">C#</a>
+                                            <a href="" cgid="168">Java</a>
+                                            <a href="" cgid="169">Perl</a>
+                                            <a href="" cgid="170">Shell</a>
+                                            <a href="" cgid="171">Qt</a>
+                                            <a href="" cgid="390">Scala</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="28">计算机基础</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="172">计算机组成原理</a>
+                                            <a href="" cgid="173">网络工程</a>
+                                            <a href="" cgid="175">Word</a>
+                                            <a href="" cgid="176">Excel</a>
+                                            <a href="" cgid="177">PowerPoint</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="29">开发基础</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="178">算法基础</a>
+                                            <a href="" cgid="179">数据结构</a>
+                                            <a href="" cgid="180">设计模式</a>
+                                            <a href="" cgid="181">软件工程</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="30">开发工具</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="183">Git/Github</a>
+                                            <a href="" cgid="184">SVN</a>
+                                            <a href="" cgid="185">VI</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="31">开放标准</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="186">OpenCL</a>
+                                            <a href="" cgid="187">Open XML</a>
+                                            <a href="" cgid="188">OpenGL/GLES</a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <!-- list-show -->
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a id="cg5" href="">云计算&amp;大数据</a>
+                            <div class="list-show" id="yunshuju">
+                                <div>
+                                    <dl>
+                                        <dt><a href="" cgid="32">云计算</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="189">OpenStack</a>
+                                            <a href="" cgid="191">Docker</a>
+                                            <a href="" cgid="197">CloudStack</a>
+                                            <a href="" cgid="378">Windows Azure</a>
+                                            <a href="" cgid="389">IaaS</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="33">大数据</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="198">Hadoop</a>
+                                            <a href="" cgid="200">Storm</a>
+                                            <a href="" cgid="204">Hive</a>
+                                            <a href="" cgid="206">Flume</a>
+                                            <a href="" cgid="208">Kafka</a>
+                                            <a href="" cgid="209">Zookeeper</a>
+                                            <a href="" cgid="211">Hbase</a>
+                                            <a href="" cgid="213">Spark</a>
+                                            <a href="" cgid="377">信息检索</a>
+                                            <a href="" cgid="383">数据分析</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="34">虚拟化</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="220">VMware</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="391">云平台</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="392">腾讯云</a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <!-- list-show -->
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a id="cg6" href="">智能硬件&amp;物联网</a>
+                            <div class="list-show" id="zhineng">
+                                <div>
+                                    <dl>
+                                        <dt><a href="" cgid="35">硬件架构</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="222">C51</a>
+                                            <a href="" cgid="223">ARM</a>
+                                            <a href="" cgid="226">Keil</a>
+                                            <a href="" cgid="228">Cortex-M</a>
+                                            <a href="" cgid="229">Cortex-A</a>
+                                            <a href="" cgid="379">AVR</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="36">物联网操作系统</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="231">RTOS</a>
+                                            <a href="" cgid="233">Android Wear</a>
+                                            <a href="" cgid="236">Apple Watchkit</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="37">开源硬件平台</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="237">Arduino</a>
+                                            <a href="" cgid="238">树莓派</a>
+                                            <a href="" cgid="239">mbed</a>
+                                            <a href="" cgid="242">GoKit</a>
+                                            <a href="" cgid="395">LeMaker Guitar</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="38">通信链接技术</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="243">无线WiFi</a>
+                                            <a href="" cgid="244">移动通信</a>
+                                            <a href="" cgid="245">蓝牙</a>
+                                            <a href="" cgid="247">NFC</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="39">信息感知处理技术</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="251">传感器</a>
+                                            <a href="" cgid="255">数据挖掘</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="40">人机交互技术</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="257">语音识别</a>
+                                            <a href="" cgid="259">人脸识别</a>
+                                            <a href="" cgid="261">手势识别</a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <!-- list-show -->
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a id="cg7" href="">数据库</a>
+                            <div class="list-show" id="shujuku">
+                                <div>
+                                    <dl>
+                                        <dt><a href="" cgid="41">SQL</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="262">MySQL</a>
+                                            <a href="" cgid="263">SQL Server</a>
+                                            <a href="" cgid="264">Oracle</a>
+                                            <a href="" cgid="265">SQLite</a>
+                                            <a href="" cgid="266">PostgreSQL</a>
+                                            <a href="" cgid="267">DB2</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="42">NoSQL</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="212">Cassandra</a>
+                                            <a href="" cgid="269">Redis</a>
+                                            <a href="" cgid="271">MongoDB</a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <!-- list-show -->
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a id="cg8" href="">认证考试</a>
+                            <div class="list-show" id="rz-text">
+                                <div>
+                                    <dl>
+                                        <dt><a href="" cgid="43">计算机等级考试</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="275">一级</a>
+                                            <a href="" cgid="276">二级C</a>
+                                            <a href="" cgid="277">二级Java</a>
+                                            <a href="" cgid="278">二级C++</a>
+                                            <a href="" cgid="281">网络工程师</a>
+                                            <a href="" cgid="282">数据库工程师</a>
+                                            <a href="" cgid="283">信息安全工程师</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="45">企业认证</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="298">思科认证</a>
+                                            <a href="" cgid="299">Oracle认证</a>
+                                            <a href="" cgid="301">Linux认证</a>
+                                            <a href="" cgid="302">ARM认证</a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <!-- list-show -->
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a id="cg9" href="">企业 IT</a>
+                            <div class="list-show" id="op-IT">
+                                <div>
+                                    <dl>
+                                        <dt><a href="" cgid="46">运维管理</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="303">Shell</a>
+                                            <a href="" cgid="304">自动化运维</a>
+                                            <a href="" cgid="305">Nginx</a>
+                                            <a href="" cgid="308">Apache</a>
+                                            <a href="" cgid="380">运维监控</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="47">商业智能</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="310">FileMaker</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="48">操作系统</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="311">Linux</a>
+                                            <a href="" cgid="312">Windows</a>
+                                            <a href="" cgid="313">Mac OS</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="384">企业服务</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="385">B2C</a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <!-- list-show -->
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a id="cg11" href="">设计&amp;产品&amp;测试</a>
+                            <div class="list-show" id="disg-text">
+                                <div>
+                                    <dl>
+                                        <dt><a href="" cgid="51">设计基础</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="327">Photoshop</a>
+                                            <a href="" cgid="329">Flash</a>
+                                            <a href="" cgid="330">Illustrator</a>
+                                            <a href="" cgid="331">Sketch</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="52">游戏设计</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="336">界面设计</a>
+                                            <a href="" cgid="338">角色设计</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="54">产品经理</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="341">需求分析</a>
+                                            <a href="" cgid="343">Axure</a>
+                                            <a href="" cgid="344">项目实战</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="362">视觉设计</a></dt>
+                                        <dd class="cf">
+                                            <a href="/" cgid="340">应用UI设计</a>
+                                            <a href="" cgid="363">网页UI设计</a>
+                                            <a href="" cgid="364">设计理论</a>
+                                            <a href="" cgid="365">图形设计</a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><a href="" cgid="50">测试工具</a></dt>
+                                        <dd class="cf">
+                                            <a href="" cgid="325">自动化测试</a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <!-- list-show -->
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- /bd -->
+        </div>
+        <ul class="hdlist">
+            <li>
+                <a href="">
+                    <i class="icon-zylj"></i>职业路径图
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="icon-zstx"></i>知识体系图
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="icon-xlkc"></i>系列课程
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="icon-kcbq"></i>课程标签
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 左边导航条 -->
+    <div class="wrap">
+        <div class="sortMode">
+            <h3>全部课程</h3>
+            <dl>
+                <dt><span class="type-title-one">最新</span><i class="aro-icon"></i></dt>
+                <dd id="typ1" class="typ">
+                    <p class="lesson-new">
+                        <a href="" ref="nofollow">最新</a>
+                    </p>
+                    <p class="lesson-new">
+                        <a href="" ref="nofollow">最热</a>
+                    </p>
+                </dd>
+            </dl>
+            <!-- new课程类型 -->
+            <dl>
+                <dt><span class="type-title-tow">课程类型</span><i class="aro-icon"></i></dt>
+                <dd id="typ2" class="typ">
+                    <p class="lesson-detailed">
+                        <a href="" ref="nofollow">VIP</a>
+                    </p>
+                    <p class="lesson-detailed">
+                        <a href="" ref="nofollow">免费</a>
+                    </p>
+                    <p class="lesson-detailed">
+                        <a href="" ref="nofollow">认证专享</a>
+                    </p>
+                    <p class="lesson-all">
+                        <a href="" ref="nofollow">全部</a>
+                    </p>
+                </dd>
+            </dl>
+            <!-- /new课程类型 -->
+            <dl>
+                <dt><span class="type-title-three">内容类型</span><i class="aro-icon"></i></dt>
+                <dd id='typ3' class="typ">
+                    <p class="lesson-detailed">
+                        <a href="" ref="nofollow">知识精讲</a>
+                    </p>
+                    <p class="lesson-detailed">
+                        <a href="" ref="nofollow">项目实战</a>
+                    </p>
+                    <p class="lesson-all">
+                        <a href="" ref="nofollow">全部</a>
+                    </p>
+                </dd>
+            </dl>
+            <dl>
+                <dt><span class="type-title-forth">难度等级</span><i class="aro-icon"></i></dt>
+                <dd id="typ4" class="typ">
+                    <p class="level-one">
+                        <a href="" ref="nofollow">初级</a>
+                    </p>
+                    <p class="level-one">
+                        <a href="" ref="nofollow">中级</a>
+                    </p>
+                    <p class="level-one">
+                        <a href="" ref="nofollow">高级</a>
+                    </p>
+                    <p class="level-all">
+                        <a href="" ref="nofollow"> 全部 </a>
+                    </p>
+                </dd>
+            </dl>
+        </div>
+        <div class="previewMode">
+            <ul>
+                <li class="kuai-icon curr"><i class="icon" id="kuai"></i>
+                </li>
+                <li class="list-icon"><i class="icon" id="list"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 课程视频 -->
+    <div id="lesson-list" class="lesson">
+        <!-- 第一页 -->
+        <div id="page1" class="page">
+            <ul id="course-list">
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/57848cca84ed1.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/5819563e27263.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4> 官方 LeMuntu 系统体验</h4>
+                            <div class="hide-list1">
+                                <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <li>
+                        <div class="p1">
+                            <a href=""><img src="picture/578c88628c2e6.jpg" alt="" style="margin-left: -29px;">
+                                <div class="player-p"> <i class="player"></i></div>
+                            </a>
+                            <div class="list-1" style="margin-left: -29px;">
+                                <h4>综合案例：使用Axure RP8.0 设计携程大型旅游网站原型</h4>
+                                <div class="hide-list1">
+                                    <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                    <em>初级</em>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/57956e9d40cbe.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>Microsoft SQL Server 数据库的查询优化器的运行方式</h4>
+                            <div class="hide-list1">
+                                <p> 本课程介绍异步编程和同步编程的区别，分析异步编程的优势。并且通过异步编程的实例，来引导学员学习异步编程思想，提高开发效率和改善编码风格。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/579eae1e23f29.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>树莓派项目实践（一）——可用 web 控制的人体感应小夜灯</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/579fc9a46964e.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>OSG人机交互</h4>
+                            <div class="hide-list1">
+                                <p>本课程首先运行并解析第一个容器，然后介绍虚拟化和 Docker 的历史及云计算的基础知识。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/57ec7af087962.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/57ec7bb299d3b.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>Flume 基础架构</h4>
+                            <div class="hide-list1">
+                                <p> 本课程讲解 OSG 中的人机交互，课程从 OpenGL 成像流程入手，循循渐进的方式对每一步的转换做深入的解释说明，然后在引入 OSG 中具体的实现。知道了整个的流程，再学习场景漫游交互和对象拾取更容易理解了。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/57ec7bd026eaa.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>Arduino 模拟鼠标键盘（二）</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/57ee150c63c28.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/5804431b4fb98.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/580d6c9d0e133.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/5816a0c0dd96c.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/58195461eba4f.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/5819552126e4d.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- 第二页 -->
+        <div id="page2" class="page">
+            <ul id="course-list">
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/584e070d8c2cb.jpeg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/582d6e30c2d46.png" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4> 官方 LeMuntu 系统体验</h4>
+                            <div class="hide-list1">
+                                <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <li>
+                        <div class="p1">
+                            <a href=""><img src="picture/581ae2cb75899.jpg" alt="" style="margin-left: -29px;">
+                                <div class="player-p"> <i class="player"></i></div>
+                            </a>
+                            <div class="list-1" style="margin-left: -29px;">
+                                <h4>综合案例：使用Axure RP8.0 设计携程大型旅游网站原型</h4>
+                                <div class="hide-list1">
+                                    <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                    <em>初级</em>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/581ae23c05942.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>Microsoft SQL Server 数据库的查询优化器的运行方式</h4>
+                            <div class="hide-list1">
+                                <p> 本课程介绍异步编程和同步编程的区别，分析异步编程的优势。并且通过异步编程的实例，来引导学员学习异步编程思想，提高开发效率和改善编码风格。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/581ae08717ebb.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>树莓派项目实践（一）——可用 web 控制的人体感应小夜灯</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/581ae02862bbb.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>OSG人机交互</h4>
+                            <div class="hide-list1">
+                                <p>本课程首先运行并解析第一个容器，然后介绍虚拟化和 Docker 的历史及云计算的基础知识。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/581adfcc3f8cd.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/581adeedb2476.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>Flume 基础架构</h4>
+                            <div class="hide-list1">
+                                <p> 本课程讲解 OSG 中的人机交互，课程从 OpenGL 成像流程入手，循循渐进的方式对每一步的转换做深入的解释说明，然后在引入 OSG 中具体的实现。知道了整个的流程，再学习场景漫游交互和对象拾取更容易理解了。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/581adf547d978.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>Arduino 模拟鼠标键盘（二）</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/5804431b4fb98.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/57ee150c63c28.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/5816a0c0dd96c.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/580d6c9d0e133.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/5819552126e4d.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/58195461eba4f.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- 第三页 -->
+        <div id="page3" class="page">
+            <ul id="course-list">
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/57848cca84ed1.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/5819563e27263.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4> 官方 LeMuntu 系统体验</h4>
+                            <div class="hide-list1">
+                                <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <li>
+                        <div class="p1">
+                            <a href=""><img src="picture/578c88628c2e6.jpg" alt="" style="margin-left: -29px;">
+                                <div class="player-p"> <i class="player"></i></div>
+                            </a>
+                            <div class="list-1" style="margin-left: -29px;">
+                                <h4>综合案例：使用Axure RP8.0 设计携程大型旅游网站原型</h4>
+                                <div class="hide-list1">
+                                    <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                    <em>初级</em>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/57956e9d40cbe.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>Microsoft SQL Server 数据库的查询优化器的运行方式</h4>
+                            <div class="hide-list1">
+                                <p> 本课程介绍异步编程和同步编程的区别，分析异步编程的优势。并且通过异步编程的实例，来引导学员学习异步编程思想，提高开发效率和改善编码风格。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/579eae1e23f29.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>树莓派项目实践（一）——可用 web 控制的人体感应小夜灯</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/579fc9a46964e.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>OSG人机交互</h4>
+                            <div class="hide-list1">
+                                <p>本课程首先运行并解析第一个容器，然后介绍虚拟化和 Docker 的历史及云计算的基础知识。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/57ec7af087962.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/57ec7bb299d3b.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>Flume 基础架构</h4>
+                            <div class="hide-list1">
+                                <p> 本课程讲解 OSG 中的人机交互，课程从 OpenGL 成像流程入手，循循渐进的方式对每一步的转换做深入的解释说明，然后在引入 OSG 中具体的实现。知道了整个的流程，再学习场景漫游交互和对象拾取更容易理解了。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/57ec7bd026eaa.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>Arduino 模拟鼠标键盘（二）</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/57ee150c63c28.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/5804431b4fb98.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/580d6c9d0e133.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/5816a0c0dd96c.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/58195461eba4f.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/5819552126e4d.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- 第四页 -->
+        <div id="page4" class="page">
+            <ul id="course-list">
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/584e070d8c2cb.jpeg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/582d6e30c2d46.png" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4> 官方 LeMuntu 系统体验</h4>
+                            <div class="hide-list1">
+                                <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <li>
+                        <div class="p1">
+                            <a href=""><img src="picture/581ae2cb75899.jpg" alt="" style="margin-left: -29px;">
+                                <div class="player-p"> <i class="player"></i></div>
+                            </a>
+                            <div class="list-1" style="margin-left: -29px;">
+                                <h4>综合案例：使用Axure RP8.0 设计携程大型旅游网站原型</h4>
+                                <div class="hide-list1">
+                                    <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                    <em>初级</em>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/581ae23c05942.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>Microsoft SQL Server 数据库的查询优化器的运行方式</h4>
+                            <div class="hide-list1">
+                                <p> 本课程介绍异步编程和同步编程的区别，分析异步编程的优势。并且通过异步编程的实例，来引导学员学习异步编程思想，提高开发效率和改善编码风格。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/581ae08717ebb.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>树莓派项目实践（一）——可用 web 控制的人体感应小夜灯</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/581ae02862bbb.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>OSG人机交互</h4>
+                            <div class="hide-list1">
+                                <p>本课程首先运行并解析第一个容器，然后介绍虚拟化和 Docker 的历史及云计算的基础知识。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/581adfcc3f8cd.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/581adeedb2476.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>Flume 基础架构</h4>
+                            <div class="hide-list1">
+                                <p> 本课程讲解 OSG 中的人机交互，课程从 OpenGL 成像流程入手，循循渐进的方式对每一步的转换做深入的解释说明，然后在引入 OSG 中具体的实现。知道了整个的流程，再学习场景漫游交互和对象拾取更容易理解了。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/581adf547d978.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>Arduino 模拟鼠标键盘（二）</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/5804431b4fb98.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/57ee150c63c28.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/5816a0c0dd96c.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/580d6c9d0e133.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/5819552126e4d.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p1">
+                        <a href=""><img src="picture/58195461eba4f.jpg" alt="">
+                            <div class="player-p"> <i class="player"></i></div>
+                        </a>
+                        <div class="list-1">
+                            <h4>综合案例-淘宝网页实战</h4>
+                            <div class="hide-list1">
+                                <p>本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。</p>
+                                <em>初级</em>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="lesson-list2" class="lesson">
+        <ul id="course-list2">
+            <li>
+                <div>
+                    <a href=""><img src="picture/579eae1e23f29.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/581ade4c061e6.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/578c34a69dbc7.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/57ec7af087962.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/5819563e27263.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/581ada4609e7a.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/57956e9d40cbe.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/581ae23c05942.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/579eae1e23f29.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/581ade4c061e6.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/578c34a69dbc7.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/57ec7af087962.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/5819563e27263.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/581ada4609e7a.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/579eae1e23f29.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/581ade4c061e6.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/578c34a69dbc7.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/57ec7af087962.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/5819563e27263.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href=""><img src="picture/581ada4609e7a.jpg" alt=""></a>
+                    <div>
+                        <h4> 课程介绍</h4>
+                        <p>对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- 分页条 -->
+    <div id="pagenum">
+        <button class="btn1">首页</button>
+        <button class="btn1">1</button>
+        <button id="btn2">2</button>
+        <button id="btn3">3</button>
+        <button id="btn4">4</button>
+        <button id="btn5">5</button>
+        <button id="btn6">6</button>
+        <div id="detial">
+            <span>...</span>
+            <span>共95页</span>
+        </div>
+    </div>
+    <!-- 脚部 -->
+</body>
+
+</html>

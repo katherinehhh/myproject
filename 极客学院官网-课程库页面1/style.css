@@ -1,0 +1,678 @@
+body{
+    background: #DFDDDD;
+}
+#nav #mynav img{
+	float: left;
+    width: 109px;
+    margin-top: 10px;
+    border: 0 none;
+}
+#nav #mynav ul li{
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 50px;
+    cursor: pointer;
+    height: 60px;
+    float: left;
+}
+#nav {
+    background: #FAFBFC;
+    border-bottom: 1px solid #C8C5C5;
+    width:100%;
+     height:auto; 
+}
+#logo-p{
+    margin-left: 90px;
+}
+#mynav{
+    display: inline-block;
+    margin-top: -38px;
+    margin-left: 18%;
+    color: #272626;
+}
+#nav #courelist ,#nav #VIP-course ,#nav #jikeblock{
+    display: none;
+    font-size: 10px;
+    width: 125px;
+    color: #3E3D3D;
+    position: absolute;
+    z-index: 3;
+    background: white;
+
+}
+#nav #VIP-course span{
+    margin-left: 105px;
+}
+#nav #VIP-course{
+    color: #837D7D;
+    width: 214px;
+    
+}
+
+#nav #jikeblock{
+width: 280px;
+color: #837D7D;
+}
+#nav #mynav #courelist  i {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin-right: 10px!important;
+}
+#mynav #courelist .web-icon , #mynav #courelist .android-icon{
+   background: url(picture/allicon.png) 0 0 no-repeat; 
+   background-position: -15px -27px;
+    background-size: 64px 64px;
+}
+#mynav #courelist .android-icon{
+    background-position: -45px -14px;
+}
+#mynav #home{
+    margin-top: 0px;
+}
+#mynav li a{
+  text-decoration: none;
+   margin-top: 20px;
+    color: black;
+    display: block;
+}
+#mynav li a:hover{
+    color: green;
+}
+
+#nav #courelist a .wechat-icon,#nav #courelist a .python-icon,#nav #courelist a .go-icon,#nav #courelist a .php-icon,#nav #courelist a .java-icon,#nav #courelist a .ios-icon {
+    background: url(picture/allicon4.png) 0 0 no-repeat ;
+    background-position: 0 0;
+    background-size: 16px 148px;
+}
+#nav #courelist a .wechat-icon{
+ background-position: -2px -60px;
+}
+#nav #courelist a .python-icon{
+    background-position: -2px -2px;
+}
+#nav #courelist a .go-icon{
+    background-position:  -2px -38px;
+}
+#nav #mynav #VIP-course i {
+    background: url(picture/allicon.png) 0 0 no-repeat;
+    background-size: 64px 64px;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin-right: 10px!important;
+}
+#nav #mynav .arow-icon{
+      margin-bottom: 2px;
+        margin-left: 5px;
+        white-space: nowrap;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  font-family: Verdana, "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei";
+  width: 8px;
+  height: 8px;
+  border-top: 1px solid #c1c1c1;
+  border-left: 1px solid #c1c1c1;
+  display: inline-block;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  transform-origin: 4px 4px;
+}
+/*注意！以下效果为什么无效？？*/
+ #nav #mynav li :hover .arow-icon {
+  margin-bottom: -2px;
+  border-top: 1px solid #35b558;
+  border-left: 1px solid #35b558;
+  transform: rotate(45deg)!important;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  animation: rotate 1s ease normal;
+  -moz-animation: rotate 1s ease normal;
+  -webkit-animation: rotate 1s ease normal;
+}
+#nav #VIP-course span {
+    margin-left: 137px;
+    display: block;
+    margin-top: -13px;
+    color: #807979;
+}
+#nav #mynav #VIP-course .kck-icon{
+        background-position: 0 -13px;
+}
+#nav #mynav #VIP-course .zyljt-icon{
+    background-position: -45px 0;
+}
+#nav #mynav #VIP-course .zstxt-icon{
+    background-position: -30px -13px;
+}
+#nav #mynav #VIP-course .xlkc-icon{
+    background: url(picture/xlkc2.png) 0 0 no-repeat;
+    background-position: 0 0;
+    background-size: 12px 12px;
+}
+#nav #mynav #VIP-course .kcbq-icon{
+        background-position: -15px -13px;
+}
+#nav #mynav #VIP-course .vip-icon{
+        background-position: -16px 0;
+}
+#nav #mynav #jikeblock i {
+    background: url(picture/allicon.png) 0 0 no-repeat;
+    background-size: 64px 64px;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin-right: 10px!important;
+}
+#nav #mynav #jikeblock .jswd-icon{
+    background-position: 0 -27px;
+}
+#nav #mynav #jikeblock .wiki-icon{
+    background-position: -29px -27px;
+}
+#nav #mynav #jikeblock .sq-icon{
+  background-position: 0 2px;
+}
+#nav #mynav #jikeblock .zygx-icon{
+ background-position: -30px 0;
+}
+#nav #jikeblock span {
+    margin-left: 137px;
+    display: block;
+    margin-top: -13px;
+    color: #807979;
+}
+#icon-box #search{
+    background-size: 17px 17px !important;
+    background-position: 0, 0;
+    background: url(picture/search-icon.png) 0 0 no-repeat;
+}
+#icon-box{
+
+    float: right;
+    text-align: right;
+    width: 200px;
+    margin-right: 95px;
+    height: 60px;
+    margin-top: -55px;
+}
+#icon-box span{
+    height: 60px;
+    width:17px;
+    display: inline-block;
+    margin-left: 25px;
+    cursor: pointer;
+}
+#icon-box #app{
+   background-size: 17px 17px!important;
+    background-position: 0, 0;
+    background: url(picture/app-icon.png) 0 0 no-repeat; 
+}
+#icon-box #login{
+   background-size: 17px 17px!important;
+    background-position: 0, 0;
+    background: url(picture/login-icon.png) 0 0 no-repeat; 
+}
+#icon-box #search:hover{
+    background: url(picture/search-icon2.png) 0 0 no-repeat;
+    background-size: 17px;
+
+}
+#icon-box #app:hover{
+    background: url('picture/app-icon2.png') 0 0 no-repeat;
+    background-size: 17px;
+ 
+}
+#icon-box #app-p {
+    z-index: 1000;
+    margin-top: -24px;
+     display: none; 
+    margin-left: 90px;
+    position: absolute;
+}
+.searchbox{
+    display: none;
+height: 59px;
+    line-height: 59px;
+    width: 945px;
+    background: #fff;
+    position: absolute;
+    z-index: 11000;
+    top: 0;
+    right: 100px;
+}
+.searchbox .close-icon{
+    width: 15px;
+    height: 15px;
+    margin-top: 22px;
+    cursor: pointer;
+    background: url(picture/close-icon.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0;
+    z-index: 1200;
+}
+.searchbox .search-icon{
+background: url(picture/search-icon.png) 0 0 no-repeat;
+    background-size: 17px 17px;
+    background-position: 0, 0;
+    height: 17px;
+    width: 17px;
+    display: inline-block;
+}
+.searchbox input {
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    font-size: 12px;
+    vertical-align: top;
+    margin-left: 10px;
+    border: 1px solid white;
+}
+.searchbox .tagbox {
+    width: 300px;
+    text-align: right;
+    display: inline;
+    margin-right: 50px;
+    float: right;
+}
+.searchbox .tagbox a {
+    font-size: 12px;
+    color: #808080;
+    background: #f5f5f5;
+    padding: 3px 5px;
+    margin-left: 10px;
+}
+
+#aside .aside-allCategory{
+    background: white;
+    width: 160px;
+    border: 1px solid green;
+      margin-top: 35px;
+    margin-left: 85px;
+    height:450px;
+
+}
+#aside .aside-allCategory li{
+
+    list-style-type: none;
+    text-align: left;
+    margin-top: 3px;
+    font-size: 10px;
+}
+#aside .aside-allCategory li a{
+
+  text-decoration: none;
+  line-height: 36px;
+      font-size: 12px;
+    color: #666;
+ box-sizing: border-box;
+
+}
+#aside .aside-allCategory h4 a{
+    color: green;
+    text-decoration:none;
+    margin-left: 25px;
+}
+
+#aside .aside-allCategory .icon-course-curr{
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url(picture/icon-course-curr_0743c98.png) no-repeat 0 0 / 15px 15px;
+    position: absolute;
+  
+}
+#aside .aside-allCategory .list-show{
+    position: absolute;
+    background: white;
+    display: none;
+    width: 400px;
+     top: -62px;
+    right: -316px;
+    font-size: 10px;
+    color: #4A4747;
+    z-index: 14;
+     border: 1px solid #bbbbc1;
+}
+#aside .aside-allCategory .list-show a:hover{
+    color: green;
+}
+#aside .aside-allCategory .list-show dt{
+    margin-top: 1px;
+    margin-left: 1px;
+}
+.aside-cList {
+    position: relative;
+    width: 208px;
+}
+#aside .aside-allCategory .bd a:hover{
+  color: green;
+  font-size: 13px;
+  border-right: 3px solid #FBF7F7;
+}
+#aside .hdlist{
+    width: 9.5%;
+    background-color: #fff;
+    position: relative;
+    margin-top: 1px;
+    margin-left: 85px;
+    text-align: left
+}
+#aside .hdlist li{
+    height: 45px;
+    list-style: none;
+}
+#aside .hdlist a {
+    display: block;
+    height: 45px;
+    width: 100%;
+    line-height: 45px;
+    color: #333;
+    font-size: 14px;
+    padding-left: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+        margin-left: -21px;
+}
+#aside .hdlist a:hover{
+    color: green;
+}
+#aside .hdlist a i {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    vertical-align: text-bottom;
+}
+#aside .hdlist a .icon-zylj {
+    background: url(picture/icon-zylj_6ee6dac.png) no-repeat left center;
+    background-size: 15px 14px;
+}
+#aside .hdlist a .icon-zstx {
+    background: url(picture/icon-zstx_a1ae096.png) no-repeat left center;
+    background-size: 15px 12.5px;
+}
+#aside .hdlist a .icon-xlkc {
+    background: url(picture/icon-xlkc_2e47588.png) no-repeat left center;
+    background-size: 14px 14px;
+}
+#aside .hdlist a .icon-kcbq {
+    background: url(picture/icon-kcbq_65534c2.png) no-repeat left center;
+    background-size: 15px 13px;
+}
+.wrap .sortMode .typ {
+    display: none;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 0px;
+    z-index: 2;
+    width: 80px;
+    background: white;   
+}
+.wrap .sortMode #typ2,.wrap .sortMode #typ3,.wrap .sortMode #typ4{
+    margin-left: 10px;
+}
+
+.wrap .sortMode dd a {
+    font-size: 10px;
+    display: block;
+    padding: 0 32px 0 17px;
+    font-weight: 500;
+    color: gray;
+    margin-top: 2px;
+     text-align: right;
+    text-decoration: none;
+}
+.wrap .sortMode dd a:hover{
+    color: green;
+}
+.wrap{
+    position: absolute;
+    top: 125px;
+    left: 293px;
+     box-sizing: content-box;
+    height: 38px;
+    background: #fff;
+    color: gray;
+    line-height: 38px;
+}
+.wrap .sortMode{
+    float: left;
+    height: 38px;
+
+}
+
+.wrap .sortMode dl{
+    position: relative;
+    z-index: 2;
+    float: left;
+    height: 36px;
+    margin: 0 1px 0 -1px;
+    white-space: nowrap;
+}
+.wrap .sortMode dl dt{
+    float: left;
+}
+.wrap .sortMode dl dt span{
+    display: block;
+    float: left;
+    color: #514E4E;
+    margin-top: 4px;
+    background: white;
+    padding: 3px 28px;
+    border: 1px solid #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+.wrap .sortMode h3{
+   float: left;
+    padding: 0 21px;
+    background: #fff;
+    border-right: 1px solid #f5f5f5;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: default;
+}
+.previewMode {
+     width: 300px;
+    height: 36px;
+    float: left;
+    background: white;
+    margin-top: 4px;
+    padding: 5px 10px;
+}
+.previewMode li {
+    position: relative;
+    float: left;
+    width: 36px;
+    height: 40px;
+    line-height: 36px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: background-color .2s;
+    -moz-transition: background-color .2s;
+    -ms-transition: background-color .2s;
+    transition: background-color .2s;
+    }
+ul{
+    list-style: none;
+}
+.previewMode  .kuai-icon .icon {
+    width: 14px;
+    background: url(picture/icon-kuai_3c1a8cf.png) no-repeat 0 0;
+    background-size: 14px;
+}
+.previewMode  .list-icon .icon {
+    width: 14px;
+    background: url(picture/icon-list_6d9f87f.png) no-repeat center;
+    background-size: 16px 12px;
+}
+.previewMode li .icon {
+   position: relative;
+    top: -20px;
+    left: 200px;
+    display: inline-block;
+    width: 14px;
+    height: 15px;
+    vertical-align: middle;
+ }
+  
+ #lesson-list #course-list{
+        position: relative;
+    margin-top: -51%;
+    margin-left: 218px;
+
+ }
+  #lesson-list .page #course-list  li{
+      float: left;
+    margin-left: 28px;
+    margin-top: 50px;
+ }
+  #lesson-list  .page #course-list .p1 {
+    background: white;
+    z-index: 5;
+
+ }
+ #lesson-list .page  #course-list .p1 .player-p {
+    position: relative;
+    z-index: 120;
+
+ }
+ #lesson-list .page #course-list .p1 .player {
+    position: absolute;
+    z-index: 120;
+    width: 50px;
+    height: 50px;
+    display: none;
+    left: 50%;
+    margin-left: -25px;
+    top: 50%;
+    margin-top: -90px;
+    background: url(picture/player_icon_5c67475.png) 0 0 no-repeat;
+    cursor: pointer;
+    background-size: 50px 50px;
+ }
+ #lesson-list .page #course-list  .p1 :hover .player {
+    display:block; 
+ }
+
+#lesson-list .page #course-list li img{
+    width: 250px;
+    height: 135px;
+  }
+ #lesson-list .page #course-list .list-1 {
+   color: #7C7777;
+    z-index: 6;
+    position: absolute;
+    width: 250px;
+    height: 40px;
+      background: white;
+ }
+
+ #lesson-list .page #course-list .list-1 h4 {
+    margin-top: 12px;
+      color: #181414;
+      font-size:14px;
+ }
+#lesson-list .page #course-list .hide-list1 {
+    font-size: 11px;
+    margin-top: -58px;
+      overflow: hidden;
+      opacity: 0;
+    
+      z-index: 100;
+      background: white;
+  } 
+   #lesson-list .page #course-list .hide-list1 p{
+      opacity: 0;
+  }
+ #lesson-list .page  #course-list .p1:hover  .hide-list1 p{
+    margin-top: 70px; 
+     transition: all 0.8s ease;
+      opacity: 1;
+ }
+ #lesson-list  .page #course-list .p1:hover .list-1{
+      
+      background: white;
+    height: 140px;
+    }
+ #lesson-list .page #course-list .p1:hover  .hide-list1 {
+     opacity: 1;
+   
+
+ }
+ #lesson-list{
+    display:block;
+ }
+ #lesson-list2{
+    display: none;
+ }
+ #lesson-list #page1{
+    display: block;
+ }
+ #lesson-list #page2{
+    display: none;
+ }
+ #lesson-list #page3{
+    display: none;
+ }
+ #lesson-list #page4{
+    display: none;
+ }
+ #pagenum{
+    float: left;
+    margin-top: 111px;
+    margin-left: 526px;
+    width: 571px;
+ }
+ #pagenum button{
+    margin-left: 15px;
+    float: left;
+    width: 55px;
+    background: #69fbe8;
+    color: white;
+ }
+ #pagenum button:hover{
+    background: green;
+    color: black;
+ }
+
+ #lesson-list2  #course-list2 li{
+     margin-top: -25px;
+    background: white;
+    width: 811px;
+    height: 125px;
+    margin-left: 27px;
+    color: #3E3C3C;
+    font-size: 12px;
+
+ }
+ #lesson-list2  #course-list2 li img{
+    width: 185px;
+    height: 100px;
+    display: inline-block;
+    float: left;
+
+  }
+  #lesson-list2  #course-list2 a{
+    display: block;
+    float: left;
+    width: 180px;
+ 
+  }
+  #lesson-list2 #course-list2{
+        position: relative;
+    margin-top: -47.2%;
+    margin-left: 218px;
+
+ }
