@@ -1,0 +1,50 @@
+   body {
+       text-align: center;
+      margin: 0 ;
+      min-width: 800px;
+   }
+   
+   #header,
+   #footer {
+       height: 50px;
+       background-color: #aaa;
+   }
+    #header{
+    	 color: black;
+       font-size: 28px;
+    }
+   #container {
+       overflow: hidden;
+       margin: 10px 0;
+   }
+   
+   #left {
+       background-color: red;
+       float: left;
+       width: 200px;
+       margin-left: -100%;
+       margin-bottom: -999px;
+       padding-bottom: 999px;
+   }
+   
+   #right {
+       background-color: green;
+       width: 200px;
+       float: left;
+       margin-left: -200px;
+       margin-bottom: -999px;
+       padding-bottom: 999px;
+   }
+   
+   #middle {
+       float: left;
+       width: 100%;
+       margin-bottom: -999px;
+       padding-bottom: 999px;
+   }
+   
+   #middle_content {
+       background-color: blue;
+       margin: 0 210px;
+      
+   }
